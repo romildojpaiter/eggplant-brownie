@@ -10,12 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var nameField : UITextField!;
-    var happinessField : UITextField!;
+    @IBOutlet var nameField : UITextField!;
+    @IBOutlet var happinessField : UITextField!;
 
     @IBAction func add(){
-        var name : String = "Romildo Paiter"
-        var happiness : String = "Mais ou menos"
+        let name = nameField.text
+        let happiness = happinessField.text
         println("eaten: \(name) \(happiness)")
     }
 

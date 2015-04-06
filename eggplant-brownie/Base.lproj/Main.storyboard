@@ -49,6 +49,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="happinessField" destination="TMi-jL-Rl4" id="Uuh-bh-ONq"/>
+                        <outlet property="nameField" destination="OOO-rM-PGq" id="bgm-Ph-VjC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
