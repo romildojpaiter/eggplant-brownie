@@ -36,6 +36,7 @@
 		F7A91AA61ACF55CB0095C842 /* eggplant-brownieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eggplant-brownieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A91AAB1ACF55CB0095C842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7A91AAC1ACF55CB0095C842 /* eggplant_brownieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eggplant_brownieTests.swift; sourceTree = "<group>"; };
+		F7A91AB61AD2EF680095C842 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +81,7 @@
 				F7A91A961ACF55CB0095C842 /* AppDelegate.swift */,
 				F7A91A981ACF55CB0095C842 /* ViewController.swift */,
 				F7A91A9A1ACF55CB0095C842 /* Main.storyboard */,
+				F7A91AB61AD2EF680095C842 /* MyPlayground.playground */,
 				F7A91A9D1ACF55CB0095C842 /* Images.xcassets */,
 				F7A91A9F1ACF55CB0095C842 /* LaunchScreen.xib */,
 				F7A91A941ACF55CB0095C842 /* Supporting Files */,
