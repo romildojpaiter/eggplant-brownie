@@ -36,3 +36,17 @@ allCalories([50.5, 100, 300, 500])
 let totalCalories = allCalories([50.5, 100, 300, 500, 1000])
 println(totalCalories)
 
+var values = [1, 2]
+
+var total = 0
+for v in values {
+    total += v
+}
+println(total/values.count)
+
+func number() -> Int{
+    return 15
+}
+
+values = [number(), number()]
+
