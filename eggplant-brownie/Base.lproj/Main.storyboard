@@ -39,8 +39,13 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cWS-qH-2Jw">
-                                <rect key="frame" x="145" y="142" width="30" height="30"/>
+                                <rect key="frame" x="60" y="150" width="201" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.67058825492858887" blue="0.96862751245498657" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Add"/>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="add" destination="vXZ-lx-hvc" eventType="touchUpInside" id="u9S-MZ-oX4"/>
                                 </connections>
