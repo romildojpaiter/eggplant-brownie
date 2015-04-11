@@ -1,22 +1,38 @@
 // Playground - noun: a place where people can play
 
-let name = "Dani's paradise"
-let happiness = 5 // Int
-// let name = "eggplant brownie"
-let calories = 50.5 // Double
-let eggplantBrownieIsVeggie = true
+// Constante Array
+let calorias = [50.5, 100, 300, 500]
 
-func helloCalories(){
-    println("heloo calories")
+// Constante Array declarando o tipo.
+let calories:Array<Double> = [50.5, 100, 300, 500]
+
+// Constante de array vazio
+let itens:Array<Double> = []
+
+for var i = 0; i < calories.count; i++ {
+    println(calories[i])
 }
 
-helloCalories()
-println("Teste de duplicidade de metodo")
-helloCalories()
 
-func add(name: String, calories: Double){
-    println("adding: \(name) - \(calories)")
+for x in 0...(calories.count - 1) {
+    println(calories[x])
 }
 
-add("X Bagunça", 100.0)
-add("X Bagunça de Egg", 130.5)
+
+for c in calories {
+    println(c)
+}
+
+func allCalories(calories: Array<Double>) -> Double{
+    var total:Double = 0
+    for c in calories {
+        total += c
+    }
+    return total;
+}
+
+allCalories([50.5, 100, 300, 500])
+
+let totalCalories = allCalories([50.5, 100, 300, 500, 1000])
+println(totalCalories)
+
